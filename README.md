@@ -18,6 +18,7 @@ Use this as a source of inspiration for your own snippets!
 - VueStore
 - dumpanddie
 - divrowcol1
+- BootstrapFormGroupText
 
 ### If you wish to know more about me...
 
