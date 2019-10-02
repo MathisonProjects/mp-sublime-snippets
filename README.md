@@ -8,19 +8,48 @@ Use this as a source of inspiration for your own snippets!
 
 ## Commands
 
-- btnbtnprimary
-- btnbtninfo
-- btnbtnwarning
-- btnbtndanger
-- btnbtnsuccess
-- VueDefaultTemplate
-- VueDefaultModal
-- VueStore
-- dumpanddie
-- divrowcol1
+### Bootstrap
+
+#### Buttons
+- BootstrapBtnBtnDanger
+- BootstrapBtnBtnInfo
+- BootstrapBtnBtnPrimary
+- BootstrapBtnBtnSuccess
+- BootstrapBtnBtnWarning
+
+#### Rows & Columns
+- BootstrapDivRowCol1
+- BootstrapDivRowCol2
+- BootstrapDivRowCol3
+- BootstrapDivRowCol4
+- BootstrapDivRowCol5
+
+#### Other
+- BootstrapCardHeadBody
 - BootstrapFormGroupText
 
+### PHP
+- dumpanddie
+
+### PHP Laravel
+- LaravelDefaultController
+- LaravelDefaultModel
+- LaravelRoutePrefixPrefix
+
+### VueJs
+- VueStore
+- VueBootstrapListGroup
+- VueDefaultTemplate
+- VueDefaultModal
+- VueHelperNodeServer (More for my scripts...)
+
+### Unsorted
+- ReadmeFooter
+
+
 ### If you wish to know more about me...
+
+Feel free to email me at jacob@mathisonprojects.com
 
 Please give me a follow or subscribe in the following:
 

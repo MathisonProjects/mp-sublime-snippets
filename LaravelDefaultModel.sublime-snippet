@@ -1,0 +1,28 @@
+<snippet>
+	<content><![CDATA[
+namespace App\Models;
+
+use Illuminate\Database\Eloquent\Model;
+
+class ${1:this}Model extends Model
+{
+    protected $table = '${2:this}';
+    protected $fillable = [
+		'name'
+    ];
+
+    public static function saveModel($data) {
+    	if ($data['id']) {
+    		$this->find($data['id']);
+    	}
+    	$this->name        = $data['name'];
+    	$this->save();
+    }
+}
+
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>LaravelDefaultModel</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.php</scope>
+</snippet>

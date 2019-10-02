@@ -1,0 +1,18 @@
+<snippet>
+	<content><![CDATA[
+
+// api/v1/ENDPOINT
+Route::prefix('v1')->group(function () {
+	Route::post('endpoint', 'Api\\${1:this}Controller@endpoint');
+
+	// api/v1/PREFIX/ENDPOINT
+	Route::prefix('prefix')->group(function() {
+		Route::post('getData' ,'Api\\${1:this}Controller@getData');
+	});
+});
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>LaravelRoutePrefixPrefix</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.php</scope>
+</snippet>
